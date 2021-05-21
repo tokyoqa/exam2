@@ -1,0 +1,87 @@
+@media (max-width: 768px){
+    :root{
+        --green: #327430;
+        --gray: #626262;
+        --white: #FFFFFF;
+        --weight500: font-weight: 500;
+        --weigth400: font-weight: 400;
+        --container: 768px;
+        --padding: 8px;
+        --content: 768px; 
+
+    }
+    .header__container{
+        grid-template-columns: 520px 81px 93px 50px;
+    }
+    .header__logo{
+        width: 106px;
+        height: 12px;
+        background: url("../svg/logo_tablet.svg");
+    }
+    .head__presentation{
+        width: 433px;
+        margin-left: 8px;
+    }
+    .head__title{
+        background: url("../svg/bg_tablet.svg");
+        max-width: var(--container);
+        height: 364px;
+    }
+    .name{
+        margin-left: -25px;
+        margin-top: 38px;
+    }
+    .comment{
+        margin-top: 41px;
+    }
+    .waiting-time{
+        margin-left: 21px;
+    }
+
+    .menu{
+        height: 1290px;
+    }
+    .menu__content{
+        margin-left: 8px;
+        width: 752px;
+        display: block;
+    }
+    .menu__food{
+        grid-template-columns: 551px 100px;
+        margin-bottom: 30px;
+    }
+    .food_title{
+        margin-left: 23px;
+    }
+    .food_about{
+        margin-left: 23px;
+    }
+    .food_price{
+        margin-left: 23px;
+    }
+    .food_image{
+        width: 200px;
+        height: 160px;
+    }
+
+    .footer__link{
+        grid-template-columns:  251px 251px 1fr;
+    }
+    .footer__lang{
+        width: 176px;
+        grid-template-columns: 31px 108px 20px;
+    }
+    .lang__image{
+        margin-top: -2px;
+    }
+    .language__text{
+        margin-top: 1px;
+    }
+    .footer__soc-link{
+        margin-top: -2px;
+    }
+    .footer__info{
+        margin-top: 1px;
+        grid-template-columns: 256px 256px 100px;
+    }
+}
